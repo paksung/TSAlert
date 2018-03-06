@@ -19,16 +19,16 @@ options配置项:
 为弹框添加按钮：
 
         TSAlert(options).addBtn({
-													text: '是',  //按钮文字
-													event: function(e){
-															//点击执行的事件
-													}
-									}).addBtn({
-													text: '否',  //按钮文字
-													event: function(e){
-															//点击执行的事件
-													}
-									})
+		text: '是',  //按钮文字
+		event: function(e){
+			//点击执行的事件
+		}
+	}).addBtn({
+		text: '否',  //按钮文字
+		event: function(e){
+			//点击执行的事件
+		}
+	});
 #### close()
 关闭弹框方法:
 
