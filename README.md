@@ -18,7 +18,7 @@ options配置项:
 #### addBtn(obj)
 为弹框添加按钮：
 
-        TSAlert(options).addBtn({
+	TSAlert(options).addBtn({
 		text: '是',  //按钮文字
 		event: function(e){
 			//点击执行的事件
