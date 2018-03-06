@@ -9,9 +9,9 @@
         TSAlert(options);
         
 options配置项:
-    * content: '' //弹框要显示的内容
-    * theme: ''   //弹框的主题 info err suc三种
-    * autoClose: 0 //弹框自动关闭倒计时，单位为s，默认为0表示不自动关闭
+* content: '' //弹框要显示的内容
+* theme: ''   //弹框的主题 info err suc三种
+* autoClose: 0 //弹框自动关闭倒计时，单位为s，默认为0表示不自动关闭
 
 ### 方法
 以下方法都支持链式调用
