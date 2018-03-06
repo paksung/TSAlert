@@ -12,22 +12,23 @@
 	</style>
 </head>
 <body>
-	<script src="../TSAlert.min.js"></script>
+	<script src="TSAlert.min.js"></script>
 	<script type="text/javascript">
 		TSAlert({
 			content: '这是一个提示哦',
-			theme: 'err'
+			theme: 'info',
+			autoClose: 500
 		}).addBtn({
-			text: '否',
-			event: function(e){
-				console.log(e)
+			'text': '是',
+			'event': function(e){
+				console.log('是')
 			}
 		}).addBtn({
-			text: '是',
-			event: function(e){
-				console.log(e)
+			'text': '否',
+			'event': function(e){
+				console.log('否')
 			}
-		});
+		})
 
 	</script>
 </body>
